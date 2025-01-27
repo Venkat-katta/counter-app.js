@@ -1,0 +1,40 @@
+#main{
+    border: 2px,chartreuse;
+    height: 30vh;
+    width: 95vw;
+    background-color: rgb(236, 91, 227);
+    position: relative;
+    gap: 25px;
+    border-radius: 5px;
+    top: 150px;
+    box-shadow: 0 0 20px;
+}
+#main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: blue;
+}
+#reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top:  100px;
+   cursor: pointer;
+}
+button:hover {
+    box-shadow: 0 0 40px white;
+    transform: scale(0.5px);
+  }
+#num{
+    font-size: 30px;
+}
